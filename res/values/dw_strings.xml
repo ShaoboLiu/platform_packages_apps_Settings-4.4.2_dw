@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SIM management settings screen title -->
+    <string name="dw_sim_management_title">SIM management</string>
+
+    <string name="dw_modem_imei">IMEI</string>
+    <string name="dw_phone_number">Phone Number</string>
+
+
+    <!-- SIM management setting screen setting check box title if enable phone service [CHAR LIMIT=25] -->
+    <string name="dw_enable_phone">Enable phone</string>
+    <string name="dw_enable_phone_summaryOn">Mobile phone service is enabled</string>
+    <string name="dw_enable_phone_summaryOff">Mobile phone service is disabled</string>
+
+
+    <!-- SimManagement setting screen setting check box title if enable mobile data -->
+    <string name="dw_enable_mobile_data">Enable mobile data</string>
+    <string name="dw_enable_mobile_data_summaryOn">Mobile data is enabled</string>
+    <string name="dw_enable_mobile_data_summaryOff">Mobile data is disabled</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The title of the activity to pick a time zone. -->
+    <string name="dw_choose_timezone">DW Choose time zone</string>
+    <!-- Do not translate. Used as the value for a setting. -->
+    <string name="dw_default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
+
+    <!-- The option in the date-format picker for using the normal format
+         called for by the user's locale. -->
+    <string name="dw_normal_date_format">Regional (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+
+    <!-- Label of preview text when tweaking font size -->
+    <string name="dw_display_preview_label">Preview:</string>
+    <!-- Label for chosen font size -->
+    <string name="dw_display_font_size_label">Font size:</string>
+
+
+    <!-- Date and time settings --><skip />
+    <!-- Main Settings screen setting option name to go into the date and time settings-->
+    <string name="dw_date_and_time_settings_title">Date &amp; time</string>
+    <!-- Title for Date & Time settings screen in SetupWizard [CHAR LIMIT=40] -->
+    <string name="dw_date_and_time_settings_title_setup_wizard">Set date and time</string>
+    <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->
+    <string name="dw_date_and_time_settings_summary">Set date, time, time zone, &amp; formats</string>
+
+
+
+    <!-- Date & time setting screen setting check box title if the time zone should be determined automatically [CHAR LIMIT=25] -->
+    <string name="dw_zone_auto">Automatic time zone</string>
+    <!-- Date & time setting screen setting option summary text when Automatic time zone check box is selected (that is, when date and time should be determined automatically)
+        [CHAR LIMIT=100]  -->
+    <string name="dw_zone_auto_summaryOn">Use network-provided time zone</string>
+    <!-- Date & time setting screen setting option summary text when Automatic time zone check box is clear
+        [CHAR LIMIT=100] -->
+    <string name="dw_zone_auto_summaryOff">Use network-provided time zone</string>
+
+
+
+    <!-- Date & time setting screen setting option title -->
+    <string name="dw_date_time_set_time">Set time</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="dw_date_time_set_timezone">Select time zone</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="dw_date_time_set_date">Set date</string>
+    <!-- Date & time setting screen setting option title.  This setting allows the user to choose how the date should be displayed in apps (what ordering for month and day, etc.) -->
+    <string name="dw_date_time_date_format">Choose date format</string>
+    <!-- Menu item on Select time zone screen -->
+    <string name="dw_zone_list_menu_sort_alphabetically">Sort alphabetically</string>
+    <!-- Menu item on Select time zone screen -->
+    <string name="dw_zone_list_menu_sort_by_timezone">Sort by time zone</string>
+    <!-- Title string shown above DatePicker, letting a user select system date
+         [CHAR LIMIT=20] -->
+    <string name="dw_date_picker_title">Date</string>
+    <!-- Title string shown above TimePicker, letting a user select system time
+         [CHAR LIMIT=20] -->
+    <string name="dw_time_picker_title">Time</string>
+
+    <!-- Security Settings --><skip />
+
+</resources>
